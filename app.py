@@ -13,11 +13,11 @@ import datetime
 
 filepath_adju='./TeleAdjudication (14).xls'
 amc_db=open_amc_db(filepath_adju)
-amc_db.to_pickle('./TeleAdjudication.pkl')
+#amc_db.to_pickle('./TeleAdjudication.pkl')
 
 # #plus facile d'ouvrir un pickle
 
-amc_db= pd.read_pickle('./TeleAdjudication.pkl')
+#amc_db= pd.read_pickle('./TeleAdjudication.pkl')
 
 
 ### On ouvre le portfolio
